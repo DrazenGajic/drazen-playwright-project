@@ -62,8 +62,8 @@ HTML Report (Interactive):
 
 Bash
 npx playwright show-report
-CSV Report: Located in test-results/report.csv.
-
+PDF report
+npx monocart show-report test-results/report.html
 Visual Evidence: Screenshots and videos of failed tests are stored in the test-results/ folder.
 
 📝 Test Cases Covered (Gherkin)
