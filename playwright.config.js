@@ -26,11 +26,18 @@ export default defineConfig({
   reporter: 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    /* Base URL to use in actions like `await page.goto('')`. */
-    // baseURL: 'http://localhost:3000',
+   /* Base URL for the project */
+    baseURL: 'https://opensource-demo.orangehrmlive.com',
 
-    /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: 'on-first-retry',
+    /* Visual artifacts settings */
+    // 'off', 'on', or 'only-on-failure'
+    screenshot: 'only-on-failure', 
+    
+    // 'off', 'on', 'retain-on-failure', or 'on-first-retry'
+    video: 'retain-on-failure',
+
+    // 'off', 'on', 'retain-on-failure', or 'on-first-retry'
+    trace: 'retain-on-failure',
   },
 
   /* Configure projects for major browsers */
