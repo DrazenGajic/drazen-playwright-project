@@ -30,9 +30,9 @@ A high-performance automated testing framework for the OrangeHRM demo site, buil
 ├── test-results/         # Screenshots, Videos, and Reports (Auto-generated)
 ├── playwright.config.js  # Global Playwright configuration
 └── package.json          # Project dependencies
+
 🛠️ Prerequisites
 Node.js (v18 or higher)
-
 Git installed on your system.
 
 ⚙️ Installation & Setup
